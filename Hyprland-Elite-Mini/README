@@ -1,0 +1,35 @@
+## Riccardo Palombo - email at riccardo dot im
+## https://github.com/RiccardoPP/dotfiles
+
+# Crafted for 1920x1200 display.
+# Based on Arch Linux and systemd distro. Check my dots for Alpine Linux variant.
+
+# Main packages
+Hyprland
+Hyprpaper
+Hyprsunset
+Hyprexpo (fork)
+Waycorner
+Swappy
+Grim
+Slupr
+wf-recorder
+swayidle
+Waybar
+Foot
+Firefox
+Zed
+Dolphin
+Nemo
+Fuzzel
+Mako
+Nwg-Look
+QT6CT KDE (AUR)
+
+# Style
+Iosevka Nerd Fonts
+Capitaine Cursors Light
+(Qt) Breeze-openSUSE Light Icons
+(GTK) Modern-Office-Night-Icons
+
+Happy Linux!

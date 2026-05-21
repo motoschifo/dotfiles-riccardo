@@ -1,0 +1,94 @@
+/*
+** Riccardo Palombo - https://riccardo.im
+*/
+
+* {
+    font-family:Font Awesome, "Iosevka NFM Medium";
+    font-size: 12px;
+}
+
+window#waybar {
+    background-color: transparent;
+    background: #101010;
+    /* border-left: 1px solid rgba(255,255,255,.2); */
+    color: #fffffe;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+/* .modules-right { */
+/* 	margin-right: 16px;	 */
+/* } */
+/*  */
+
+ .modules-right { 
+ margin: 0 0 40px 0;
+ } 
+
+
+#workspaces button {
+    padding: 1px 5px 0 5px;
+    margin-right: 4px;
+    background-color: transparent;
+    color: #999;
+    box-shadow: inset 0 -1px transparent; 
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button:hover {
+    background: inherit;
+    color: #ffffff;
+    box-shadow: inherit;
+    text-shadow: inherit; 
+}
+
+#workspaces button.active {
+    color: #fff;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#taskbar {
+}
+
+#taskbar button {
+}
+
+#taskbar button.active {
+	color: white;
+}
+
+
+/* #clock, */
+/* #battery, */
+/* #bluetooth, */
+/* #cpu, */
+/* #memory, */
+/* #disk, */
+/* #temperature, */
+/* #backlight, */
+/* #network, */
+/* #pulseaudio, */
+/* #custom-media, */
+/* #tray, */
+/* #mode, */
+/* #idle_inhibitor, */
+/* #custom-gammastep, */
+/* #custom-write { */
+/*     color: #FFFFFF; */
+/* } */
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}

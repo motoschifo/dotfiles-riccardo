@@ -1,0 +1,18 @@
+[top_left]
+
+enter_command = [ "hyprctl", "dispatch hyprexpo:expo" ]
+#exit_command = [ "notify-send", "exit" ]
+locations = ["top_left"]  
+size = 20  
+margin = 20 
+timeout_ms = 100  
+#color = "#FFFF0000"  
+
+[bottom_left]
+
+enter_command = [ ".config/scripts/fuzzel-power.sh" ]
+locations = ["bottom_left"]
+size = 10  
+margin = 0  
+timeout_ms = 100  
+#color = "#FFFF0000"
