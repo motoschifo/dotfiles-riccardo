@@ -2,6 +2,12 @@
 
 Here's all my dotfiles. A README with some general instructions is included in every directories. Have fun with Linux!
 
+## Hyprland - HP Elite Mini
+[Go to files](Hyprland-Elite-Mini)
+
+![Hyprland Mini PC](Hyprland-Elite-Mini/screen.png)
+
+
 ## LabWC - 1920x1200
 [Go to files](LabWC-1920x1200)
 
