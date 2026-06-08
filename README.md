@@ -23,7 +23,7 @@ Here's all my dotfiles. A README with some general instructions is included in e
 ## LabWC - ASUS Chromebook Plus
 [Go to files](LabWC-Chromebook-Plus)
 
-[![LabWC ASUS Chromebook Plus Video](https://img.youtube.com/vi/9bIt-mvfhSI/0.jpg)](https://youtu.be/9bIt-mvfhSI)
+[![LabWC ASUS Chromebook Plus Video](https://github.com/RiccardoPP/dotfiles/blob/main/LabWC-Chromebook-Plus/screen.png)](https://youtu.be/9bIt-mvfhSI)
 
 ## LabWC - Raspberry Pi 500
 [Go to files](LabWC-Alpine-Raspberry-Pi-500)
