@@ -107,7 +107,7 @@
     "margin-bottom": 77,
     "margin-top": 15,
     // Choose the order of the modules
- //  "modules-left": ["cpu", "memory", "temperature"],
+   "modules-left": ["cpu", "memory", "temperature"],
  //   "modules-center": ["cpu"],
 //    "modules-right": ["idle_inhibitor", "bluetooth", "network", "battery"],
      "modules-right": ["bluetooth"],
@@ -119,10 +119,10 @@
      },
      "temperature": {
      "align": 2,
-          "thermal-zone": 1,
-         //"hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input",
+         //"thermal-zone": 0,
+         "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input",
          "critical-threshold": 80,
-         // "format-critical": "{temperatureC}°C {icon}",
+         "format-critical": "CRITICAL TEMP {temperatureC}°C",
          "format": "TEMP {temperatureC}°C",
          "format-icons": ["", "", ""]
      },
@@ -134,7 +134,7 @@
  "bluetooth": {
         "format": "",
         "format-disabled": "", // an empty format will hide the module
-        "format-connected": "<span text-transform='uppercase'>{device_alias}</span>",
+        "format-connected": "<span text-transform='uppercase'>{num_connections} connected</span>",
         "tooltip-format": "<span text-transform='uppercase'>{controller_alias}</span>",
         "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
